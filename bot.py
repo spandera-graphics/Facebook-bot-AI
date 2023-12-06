@@ -6,8 +6,8 @@ from flask import Flask, request
 
 bot = Flask(__name__)
 
-PAGE_ACCESS_TOKEN='EAAMWpBkxQbIBAAsLLfDZCgooTDx7ifR6lTpLzaBtJmOZB7MWjf5K9zEhHDASbsWEfwO6YeFZCS1DhP6piZAJrX2aFVtqGbCiMbaRXZCuTZCQr3FSHEwfMm26EgRQqwKBPv8xbWjeQe8hZBxM7Xbq0kGIzlHwNozZCxZBmcO7aPUVQZBAZDZD'
-VERIFY_TOKEN = 'verifythistokenotherwiseillbeatyourshitup'
+PAGE_ACCESS_TOKEN='EAAODKttbnSoBOwhiUPgR6UJS6Wzo1IzPBcP4hZA0xjfgaIfFqGTQFKdbjZBh2xtvoFELjFQA2GZCWWnobR3f1cAZAIN5QLrcD4eK8CRt7kprl4bKRsCVPDxKFqoqSw0xFdYdCN0fZCNpiCiboT2pHanKChJwsng9NxBZCGNpEvoNkZAAeApZBhBEBA4507R7yhUxU6R3nUNh6e3ybsHjGMZAZAK7ZCh'
+VERIFY_TOKEN = 'spandera77'
 
 @bot.route('/', methods=['GET'])
 def hub_challenge_verification():
